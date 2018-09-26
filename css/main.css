@@ -1,0 +1,124 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	
+	/*background: linear-gradient(180deg, #FECACB 0%, rgba(255,255,255,0) 75%);*/
+}
+
+.grid.grid__home {
+	display: grid;
+	grid-template-columns: repeat(32, 1fr);
+	grid-template-rows: repeat(32, 1fr);
+	height: 100%;
+	width: 100%;
+}
+
+.container.container__body {
+	background: white;
+	grid-column: 4 / 30;
+	grid-row: 4 / 30;
+	border: solid red 2px;
+	overflow: scroll;
+}
+
+.container.container__title {
+	/*border: pink solid 1px;*/
+	grid-column: 1 / 33;
+	grid-row: 2 /2;
+	margin: 10px;
+	margin-left: 0;
+    margin-right: 0;
+
+}
+
+.test {
+	    display: flex;
+    align-items: center;
+}
+
+.h1.h1__title {
+	font-weight: 1;
+	/*font-family: 'Anton', sans-serif;*/
+	font-family: 'Knewave', cursive;
+	text-transform: uppercase;
+	margin-left: 1em;
+	font-size: 38px;
+}
+
+.h2.h2__sub-title {
+	font-family: 'Questrial', sans-serif;
+	font-weight: 1;
+	margin-left: 2em;
+	color: blue;
+}
+
+.line-test {
+	height: 2px;
+	background: red;
+	width: 100%;
+}
+
+/*DAY ONE*/
+
+.h1.h1__title--subheads {
+	/*font-family: 'Bitter', serif;*/
+	font-family: 'Quicksand', sans-serif;
+	font-size: 22px;
+	margin-left: 1.6em;
+}
+
+.grid.grid__one {
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	grid-template-rows: repeat(12, 1fr);
+	/*height: 100%;
+	width: 100%;*/
+}
+
+/*.test-one {
+	height: 100%;
+    width: 50%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}*/
+.img.img__one {
+	width:100%; 
+	height: auto;
+	height: 100%;
+    width: 100%;
+	grid-column: 1/ 8;
+	grid-row: 1 / 8;
+}
+
+.header.header--one {
+	grid-column: 9 / 12;
+	grid-row: 2 / 3;
+	font-size: 34px;
+	line-height: 1.8;
+	font-family: 'Playfair Display', serif;
+
+}
+
+.p.p__attribution {
+	grid-column: 9 / 9;
+	grid-row: 1 / 2;
+	display: flex;
+	align-items: flex-end;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+}
+
+.p.p--paragraph-one {
+	grid-column: 9 /12;
+	grid-row: 3 / 5;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 2;
+	margin-top: -.5em;
+}
+
+
+
+
+
